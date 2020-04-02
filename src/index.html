@@ -4,13 +4,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
   <!-- TODO: Insert a title for your page -->
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav>
+  <p>
     <!-- TODO: Insert some sort of H1-H6 with your name here -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <a class="navbar-brand" href="#">Portfolio</a>
@@ -20,13 +22,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#bioPage">Bio<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#bio-page">Bio<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#technologiesPage">Technologies Page</a>
+            <a class="nav-link" href="#technologies-page">Technologies Page</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projectsPage">Projects</a>
+            <a class="nav-link" href="#projectsPage">My Work</a>
           </li>
         </ul>
       </div>
@@ -39,24 +41,27 @@
     <div class="container h-40">
       <div class="row h-100 align-items-center">
         <div class="col-12 text-left text-black">
-          <h1 class="font-weight-heavy">Stephen's Portfolio</h1>
-          <p class="lead">Hello World :)</p>
+          <h1 class="font-weight-heavy" id="banner-title">Stephen's Portfolio</h1>
+          <!-- <p class="lead">Hello World :)</p> -->
+          <h1><span class="text_1">Hello world!</span>
+            <span class="text_2">I am a full stack developer!</span></h1>
         </div>
       </div>
     </div>
   </header>
 
   <!-- Primary View -->
-  <div class="fullPage" id="bioPage">
+  <div class="fullPage" id="bio-page">
     <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-    <h3>My Background</h3>
-    <p>I am an aspiring developer. I am currently a full time teacher.</p>
-    <h3>Career Development Goals</h3>
-    <p>I wish to one day work as a fulltime developer.</p>
-    <h3>Why I Love Development</h3>
-    <p>I love the challenge! Everyday is something different.</p>
+    <!-- <h3>My Background</h3> -->
+    <h2 class="heading-vertical">WHO AM I?</h2>
+    <p>I am an <span class="cyan"> extremely passionate full stack developer </span>. Before pursuing a career in development, I worked as a <span class= "cyan"> high school music teacher </span> for five years. During my last year of teaching, I became interested in development.</p>
+    <p>My interest would would eventually lead me to <span class="green"> Nashville Software School </span> where I participatipated in a Web Development Jumpstart course. In January of 2020, I decided to <span class="green"> pursue my passion </span> and started the NSS full-stack web development boot camp.</p>    
+    <p>I <span class="orange">love development</span> because everyday I am able to learn something different. There's nothing
+  that <span class="orange"> excites me more than a challenge </span> and that is exactly what you get as a computer programmer. I look forward to starting my <span class="orange"> career as a developer </span>.</p>
   </div>
-  <div class="fullPage" id="technologiesPage">
+
+  <div class="fullPage" id="technologies-page">
     <ul>
       <li>HTML</li>
       <li>CSS</li>

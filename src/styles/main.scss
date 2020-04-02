@@ -2,18 +2,125 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
-  background-color: blue;
+  background-color: black;
+  font-family: 'Montserrat', sans-serif;
+//   font-family: 'Lora', serif;
 }
 
 .masthead {
   height: 60vh;
   min-height: 500px;
-  background-image: url('https://i.imgur.com/N23YkMX.png');
+  background-image: url('https://i.imgur.com/VhmWAai.jpg');
   // background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
   background-color: white;
-  
-  
 }
 
+HTML CSSResult
+EDIT ON
+body {
+  background-color: #000;
+  color: white;
+  font-size: 100px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.text_1 {
+  animation: text1;
+}
+
+.text_2 {
+  animation: text2;
+}
+
+.text_1, .text_2 {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation-duration: 20s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+
+.text_1::after, .text_2::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes text2 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  
+  60%, 90% {
+    width: 14.2em;
+  }
+}
+
+@keyframes text1 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  10%, 40% {
+    width: 6.5em;
+  }
+}
+
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+#banner-title {
+  font-size: 40px;
+}
+
+#bio-page {
+  margin-top: 50px;
+  margin-right: 200px;
+  margin-left: 200px;
+  font-size: 27px;
+  color: white;
+}
+
+.cyan {
+  color: cyan;
+}
+.green {
+  color: #5dc942;
+}
+.orange {
+  color: orange;
+}
+.heading-vertical {
+  position: absolute;
+  left: -100px;
+  // top: -40px;
+  right: auto;
+  bottom: auto;
+  display: inline-block;
+  margin-top: 215px;
+  margin-bottom: 30px;
+  transform: rotate(-90deg);
+  line-height: 110%;
+  font-weight: 400;
+  color: #2c2c2e;
+  font-size: 50px;
+}
+
+#technologies-page {
+  background-color: #16181c;
+}
