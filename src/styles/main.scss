@@ -124,3 +124,61 @@ h1 {
 #technologies-page {
   background-color: #16181c;
 }
+
+.technologies-title {
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.projects-title {
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
+i {
+  font-size: 120px;
+  // text-align: center;
+}
+
+.fa-html5 {
+  color: #f06529;
+}
+
+.fa-css3-alt {
+  color: #264de4;
+}
+
+.fa-sass {
+  color: #cd6799;
+}
+
+.fa-react {
+  color: #61dbfb
+}
+
+.fa-git {
+  color: #f34f29;
+}
+
+.fa-github-square {
+  color: #F1502F;
+}
+
+.fa-js {
+  color:  #f0db4f;
+}
+
+.technologies-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+  padding-bottom: 50px; 
+  
+}
