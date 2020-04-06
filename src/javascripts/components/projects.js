@@ -1,20 +1,22 @@
-const createProjectCards = () => {
+import projectData from '../../helpers/data/projectData';
+import utils from '../../helpers/utils';
+
+const projectCardBuilder = () => {
+  const projects = projectData.getProjects();
   let domString = '';
- for(let i = 0; i < projects.length; i++){
-  if (projects[i].available != false) {
-  domString += '<div class="projectcards">';
-  domString +=   `<header><h1 class="name">${projects[i].title}</h1></header>`;
-  domString +=   `<p> <img src="${projects[i].screenshot}"></p>`;
-  domString +=   `<section class="color"> ${projects[i].description}</section>`;
-  domString +=   `<p class="skill"> ${projects[i].technologiesUsed}</p>`;
-  domString +=   `<p id="available"></p>`;
-  domString +=   `<a href=" ${projects[i].url}">GitHub</a>`;
- domString +=   `<a href=" ${projects[i].githubUrl}">GITHUB URL</a>`;
-domString += '</div>';
-              }
-  
-          }
-          console.log(domString)
-          printToDom('projectsPage', domString);
-      }
-      createProjectCards();
+  projects.forEach((project) => {
+    domString += '<div class="card col-lg-5" id="project-cards" style="width: 18rem;">';
+    domString += `<img src=${project.screenshot} class="card-img-top project-cards" alt="...">`;
+    domString += '<div class="card-body">';
+    domString += `<h5 class="card-title">${project.title}</h5>`;
+    // domString += `<p class="card-text">${project.description}</p>`;
+    domString += `<a href="#${project.url}" class="btn btn-primary text-center">Url</a>`;
+    domString += `<a href="#${project.githubUrl}" class="btn btn-primary text-center">gitHub Url</a>`;
+    domString += '</div>';
+    domString += '</div>';
+  });
+
+  utils.printToDom('projects-page', domString);
+};
+
+export default { projectCardBuilder };
