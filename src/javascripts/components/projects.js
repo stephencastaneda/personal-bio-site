@@ -10,8 +10,8 @@ const projectCardBuilder = () => {
     domString += '<div class="card-body">';
     domString += `<h5 class="card-title">${project.title}</h5>`;
     // domString += `<p class="card-text">${project.description}</p>`;
-    domString += `<a href="#${project.url}" class="btn btn-primary text-center">Url</a>`;
-    domString += `<a href="#${project.githubUrl}" class="btn btn-primary text-center">gitHub Url</a>`;
+    domString += '<button class="btn btn-dark website-link-btn mr-2"><i class="fas fa-globe"></i></a></button>';
+    domString += `<a class="btn btn-dark git-hub-btn" href="${project.githubUrl}"><i class="fab fa-github"></i></a>`;
     domString += '</div>';
     domString += '</div>';
   });
