@@ -20,8 +20,7 @@ const projects = [
   {
     title: 'Star Destroyer',
     screenshot: 'https://i.imgur.com/oVpJEF0.png',
-    description: 'A project that features all missions, personnel, weapons, enemies, and sectors in our very own Star Wars galaxy. Users are able to create a mission. As well as edit the mission planetery sector and enemy target. Users can also add personnel and weapons for their missions.', // A good project description includes 'the what', 'the why', and 'the how'.
-    technologiesUsed: 'HTML, CSS, VS Code, React, Bootstrap, jQuery, firebase, Github',
+    description: 'The Star Destroyer is a project that features all missions, personnel, weapons, enemies, and sectors in your very own Star Wars galaxy. Users can create a mission, and edit their mission planetary sector and enemy target. Users may also add personnel and weapons for their missions.',
     available: true,
     url: 'https://star-wars-484f4.web.app', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
     githubUrl: 'https://github.com/nss-evening-cohort-11/nutshell-ewoks-droids',
