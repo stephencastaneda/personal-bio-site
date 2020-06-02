@@ -23,7 +23,7 @@ const projectCardBuilder = () => {
     domString += 'TECH USED';
     domString += '</button>';
     domString += '</div>';
-    domString += '<button class="btn btn-dark website-link-btn mr-2"><i class="fas fa-globe"></i></a></button>';
+    domString += `<a class="btn btn-dark website-link-btn mr-2" href="${project.url}"><i class="fas fa-globe"></i></a>`;
     domString += `<a class="btn btn-dark git-hub-btn" href="${project.githubUrl}"><i class="fab fa-github"></i></a>`;
     domString += '</div>';
     domString += '</div>';
