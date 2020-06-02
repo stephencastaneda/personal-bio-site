@@ -139,6 +139,13 @@ h1 {
   font-size: 40px;
 }
 
+.footer-title {
+  color: white;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 40px;
+}
+
 i {
   font-size: 120px;
   // text-align: center;
@@ -213,4 +220,70 @@ i {
 
 .git-url-btn {
   text-align: center;
+}
+
+.fa-globe {
+  font-size: 30px;
+}
+
+.fa-github {
+  font-size: 30px;
+}
+
+.footer-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.linkedin-footer-btn {
+  margin-right: 20px;
+  color: #2867B2;
+  font-size: 70px;
+}
+
+.fa-envelope-square {
+  color: #FF00FF;
+  margin-right: 50px;
+  font-size: 70px;
+}
+
+.github-footer-btn {
+  font-size: 70px;
+  margin-left: 30px;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 75%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: grey;
+  z-index: 2;
+}
+
+.description-text {
+  padding-top: 100px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}
+
+.popover-button {
+  background-color: red;
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+#navbarNav {
+margin-bottom: 0px !important;
 }
