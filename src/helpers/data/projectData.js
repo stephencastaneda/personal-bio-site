@@ -5,7 +5,7 @@ const projects = [
     description: 'A recreation of the classic hit kids virtual game, Tamagotchi. This project allowed us to practice using SASS. We only used SASS for all of the styling for this project. Our Tamagotchi game included four quadrants, each for a different feature in our game. Each quadrant included a real live progress bar that updated after each event was clicked.', // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed: 'HTML, CSS, SASS, Vanilla JavaScript, jQuery, Github',
     available: true,
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+    url: 'https://tamagotchi-e85d3.web.app', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
     githubUrl: 'https://github.com/stephencastaneda/tamagotchiproject',
   },
   {
