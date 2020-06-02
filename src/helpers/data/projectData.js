@@ -14,7 +14,7 @@ const projects = [
     description: 'This project is a basic messaging app that allows you to create messages and delete messages. This app also features a dark mode and large text option. This project utilized a plethora of vanilla javascript methods. Our app uses seed data that displays on page load. There are radio buttons to select a user before typing your message. After you type your message, there is a button that allows you to delete your message.',
     technologiesUsed: 'HTML, CSS, SASS, Vanilla JavaScript, jQuery, Github',
     available: true,
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+    url: 'https://chatty-app-13ba4.web.app', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
     githubUrl: 'https://github.com/nss-evening-cohort-11/chatty-butterworts',
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     description: 'This is the second app I created with React. This project features a team roster for the Los Angeles Lakers. Users can create, edit, and add players as they wish.', // A good project description includes 'the what', 'the why', and 'the how'.
     technologiesUsed: 'HTML, SASS, VS Code, Github, Bootstrap, jQuery, firebase, Github',
     available: true,
-    url: 'https://github.com/nss-evening-cohort-8/js-part-deux', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
+    url: 'https://sports-roster-a619c.web.app', // Towards the latter part of the class, you will learn how to host your projects and people will be able to view them live. Cool, right? Welp, until then, just use your GitHub link in this spot as well.
     githubUrl: 'https://github.com/stephencastaneda/sports-roster',
   },
 ];
